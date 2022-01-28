@@ -27,3 +27,26 @@ blockchain = [
 # Anthony's KelloggCoin balance is 2650
 
 # 👇👇👇 Your code HERE 👇👇👇
+benc =0 
+brianc = 0
+evanc = 0
+antc = 0
+benc = benc + 20000
+brianc = brianc + 20000
+benc = benc - 9000
+evanc = evanc + 9000
+brianc = brianc - 7000
+antc = antc + 7000
+evanc = evanc -400
+antc = antc + 400
+benc = benc - 1500
+antc = antc + 1500
+antc = antc - 4500
+benc = benc + 4500
+antc = antc - 1750
+evanc = evanc + 1750
+
+puts "Ben's KelloggCoin balance is #{benc}"
+puts "Brian's KelloggCoin balance is #{brianc}"
+puts "Evan's KelloggCoin balance is #{evanc}"
+puts "Anthony's KelloggCoin balance is #{antc}"
